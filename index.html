@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pomnik Romana Dmowskiego</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kalnia&display=swap" rel="stylesheet"> 
+</head>
+<body>
+  <header class="invisible">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#home">Strona Główna</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#initiative">
+                <i class="fa fa-lightbulb-o" aria-hidden="true"></i> Inicjatywa
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#reasons">
+                <i class="fa fa-list-ol" aria-hidden="true"></i> 10 Powodów
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#rules">
+                <i class="fa fa-file-text" aria-hidden="true"></i> Regulamin
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">
+                <i class="fa fa-phone" aria-hidden="true"></i> Kontakt
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section id="home">
+    <div class="home-description-tab">
+      <h2>Witamy na stronie komitetu budowy pomnika Romana Dmowskiego!</h2>
+      <p>Nasz cel to wybudowanie pomnika w centrum Otwocka upamiętniającego Romana Dmowskiego.</p>
+      <button class="btn btn-outline-warning" onclick="scrollToInitiative()">Dowiedz się więcej</button>
+  </section>
+
+  <div class="container">
+    <div id="initiative-background"></div>
+    <section id="initiative" class="lazy-load">
+      <h2 class="section-title">Inicjatywa, <span>sprawdź co się za nami kryje</span></h2>
+      <p>
+        Dnia 27.01.2023 r. z inicjatywy grupy mieszkańców Powiatu Otwockiego podpisany został akt założycielski Społecznego Komitetu Budowy Pomnika Romana Dmowskiego w Otwocku.
+      </p>
+      <p>
+        Celem Komitetu, dla którego został powołany, jest doprowadzenie do realizacji budowy  pomnika Romana Dmowskiego w Otwocku.
+      </p>
+      <p>
+        Podążając śladem innych lokalnych inicjatyw w naszym regionie, zmierzających do upamiętnienia wielkich Polaków, w dniu 04.04.2023 r. zwróciliśmy się z wnioskiem do Prezydenta Miasta Otwocka o wydanie wstępnej zgody na wzniesienie pomnika oraz o podjęcie przez Radę Miejską uchwały intencyjnej w tej sprawie. Zaproponowaliśmy wzniesienie obiektu w formie popiersia na cokole (w kształcie zbliżonym do pomnika I. J. Paderewskiego, zlokalizowanego przed wejściem do Parku Skaryszewskiego w Warszawie), z inskrypcją „Roman Dmowski 1864 -1939” oraz wizerunkiem orła. Jako jedną z możliwych lokalizacji wskazaliśmy rejon bazaru przy ul. Orlej, ul. Andriollego i ul. Pod Zegarem.
+      </p>
+      <p>
+        Podkreślając, że Dmowski dawał przykład wytrwałości i rozwagi, ciężkiej pracy, skutecznej i twórczej działalności publicznej, wskazaliśmy jednocześnie, że pomimo wielu cennych inicjatyw, poziom upamiętnienia tej postaci w naszym kraju jest wciąż niewystarczający w stosunku do jego zasług, w porównaniu np. ze stopniem spopularyzowania postaci Tadeusza Kościuszki czy Józefa Piłsudskiego.
+        Choć dokonania Dmowskiego bronią się same i nie wymagają zabiegów upiększających, chcielibyśmy zwrócić uwagę na dalekowzroczność i ponadczasowy wymiar jego przekazu: zamiast niezdrowych emocji była w nim kalkulacja, zamiast szowinizmu – pragmatyzm, zamiast anachronizmów – przytomne i realistyczne spojrzenie na rzeczywistość, zamiast agresji i wymachiwania szablą – umiar i rozsądek, zamiast bezkrytycznej egzaltacji – dostrzeganie wad narodowych, zamiast negacji wartości innych narodów – podziw dla ich osiągnięć. Wszystko to składało się na twórczy patriotyzm Dmowskiego i służyło za podstawę jego trwającej kilka dekad działalności.
+      </p>
+
+      <div class="card lazy-load">
+        <div class="card-header"></div>
+        <div class="card-body d-flex justify-content-center">
+          <p class="card-text "></p>
+        </div>
+        <div class="card-body d-flex justify-content-center">
+          <img />
+        </div>
+        <div class="card-body ">
+          <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" style="width: 0%"></div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+  </div>
+
+  <div class="reasons-container">
+    <div class="container">
+      <section id="reasons" class="lazy-load">
+        <h2 class="section-title"><span style="color:#D7BB07">10</span> Powodów dla których należy wybudować TEN pomnik</h2>
+        <p>
+          <span>1</span>.	Dmowski był wybitnym współtwórcą procesu odrodzenia narodowego i odrodzenia polskiej państwowości po długotrwałym okresie zaborów.
+        </p>
+        <p>
+          <span>2</span>.	Dmowski ukształtował współczesne rozumienie polskiego interesu narodowego i państwowego, z którego korzystały i korzystają kolejne pokolenia, aż do dnia dzisiejszego.
+        </p>
+        <p>
+          <span>3</span>.	Postać Dmowskiego może służyć politykom czasów nam współczesnych za przykład rozsądku, pragmatyzmu, profesjonalizmu i nowoczesnego patriotyzmu.
+        </p>
+        <p>
+          <span>4</span>.	Dmowski był postacią niezaprzeczalnie związaną z Mazowszem.
+        </p>
+        <p>
+          <span>5</span>.	Poziom upamiętnienia Dmowskiego w przestrzeni publicznej wciąż nie dorównuje obecności w niej innych wybitnych polskich postaci historycznych.
+        </p>
+        <p>
+          <span>6</span>.	W dzisiejszych skomplikowanych czasach Polska potrzebuje symboli, które łączą a nie dzielą. Postać Dmowskiego, ze swym przesłaniem nowoczesnego patriotyzmu może pełnić taką rolę.
+        </p>
+        <p>
+          <span>7</span>.	Wizerunek Dmowskiego wymaga pewnej formy ocieplenia, gdyż przez dekady jego postać była niesłusznie deprecjonowana przy pomocy nieprzychylnych osądów i wyrwanych z kontekstu wypowiedzi.
+        </p>
+        <p>
+          <span>8</span>.	Promocja patriotyzmu i popularyzacja współczesnych dziejów Polski to wartości same w sobie.
+        </p>
+        <p>
+          <span>9</span>.	Wartością samą w sobie jest również aktywizacja społeczności lokalnej wokół konkretnego, pozytywnego w swej wymowie celu.
+        </p>
+        <p>
+          <span>10</span>.	Pomniki uatrakcyjniają miejską przestrzeń publiczną i są świetnymi punktami  orientacyjnymi.         
+        </p>
+      </section>
+    </div>
+  </div>
+
+  <img class="background-separate-image initiative-rules" src="img/documentAndBuild.png" width="300" height="300"/>
+  
+  <div class="container">
+    <section id="rules" class="lazy-load">
+      <h2 class="section-title">Regulamin Komitetu</h2>
+      <p>
+        My, Członkowie Założyciele, dla uczczenia i upamiętnienia zasług wybitnego polityka, działacza niepodległościowego, parlamentarzysty, dyplomaty, pisarza i publicysty powołujemy Społeczny Komitet Budowy Pomnika Romana Dmowskiego w Otwocku zwany dalej „Komitetem” oraz ustalamy zasady jego działania. 
+      </p>
+      <h1><center>§ 1</center></h1>
+      <p>
+        Niniejszy Regulamin odwołuje się do Aktu Założycielskiego Komitetu, podpisanego w dniu 
+        4 kwietnia 2023 roku, a zwanego dalej Aktem Założycielskim i stanowi jego integralną część. 
+      </p>
+      <h1><center>§ 2</center></h1>
+      <p>
+        Komitet jest powoływany do czasu zakończenia budowy pomnika Romana Dmowskiego w Otwocku i działa na podstawie niniejszego Regulaminu.
+      </p>
+      <h1><center>§ 3</center></h1>
+      <p>
+        Komitet jest powoływany do czasu zakończenia budowy pomnika Romana Dmowskiego w Otwocku i działa na podstawie niniejszego Regulaminu.
+      </p>
+      <h1><center>§ 4</center></h1>
+      <p>
+        Komitet działa społecznie, co oznacza, że wykonywanie w nim zadań i pełnienie funkcji ma charakter nieodpłatny. 
+      </p>
+      <h1><center>§ 5</center></h1>
+      <p>
+        Podstawowym celem działania Komitetu jest doprowadzenie do wybudowania pomnika Romana Dmowskiego w Otwocku, w szczególności poprzez:
+        <ol>
+          <li>pozyskiwanie środków pieniężnych na budowę pomnika; </li>
+          <li>wystąpienie z wnioskiem do Rady Miasta o podjęcie stosownej uchwały w sprawie budowy pomnika, wyznaczenie i udostępnienie terenu na ten cel oraz przeprowadzenie wymaganego procesu inwestycyjnego;</li>
+          <li>określenie założeń projektowych pomnika, zamówienie projektu i wykonawstwa pomnika;  </li>
+          <li>uzyskanie niezbędnych zgód i pozwoleń właściwych organów.  </li>
+        </ol>
+      </p>
+      <h1><center>§ 6</center></h1>
+      <p>
+        Dla wsparcia swego podstawowego celu Komitet może podejmować współpracę z organami państwowymi i samorządowymi, placówkami edukacyjnymi i kulturalnymi, mediami, stowarzyszeniami i innymi organizacjami o podobnych celach, na rzecz upamiętnienia tradycji patriotycznych i wartości narodowych.
+      </p>
+      <h1><center>§ 7</center></h1>
+      <p>
+        Członkami Założycielami Komitetu są osoby wymienione w Akcie Założycielskim. Ponadto, członkiem Komitetu może zostać osoba fizyczna, która czynnie włącza się w działania zmierzające do wybudowania pomnika.
+      </p>
+      <h1><center>§ 8</center></h1>
+      <p>
+        Przyjmowanie w poczet członków Komitetu odbywa się poprzez zaproszenie przez Zarząd Komitetu oraz złożenie na piśmie deklaracji że osoba ubiegająca się o członkostwo:
+      </p>
+      <h1><center>§ 8</center></h1>
+      <p>
+        Przyjmowanie w poczet członków Komitetu odbywa się poprzez zaproszenie przez Zarząd Komitetu oraz złożenie na piśmie deklaracji że osoba ubiegająca się o członkostwo:
+        <ol type="a">
+          <li>zgłasza chęć przystąpienia do Komitetu</li>
+          <li>zapoznała się z treścią niniejszego Regulaminu</li>
+          <li>deklaruje, że będzie przestrzegać postanowień Regulaminu, aktywnie uczestniczyć w pracach Komitetu oraz że nie będzie działała na szkodę Komitetu</li>
+        </ol>
+      </p>
+      <h1><center>§ 9</center></h1>
+      <p>
+        Ustanie członkostwa w Komitecie następuje z chwilą:
+        <ol type="a">
+          <li>wystąpienia z Komitetu na własną pisemną prośbę</li>
+          <li>wykreślenia z listy członków w następstwie działania na szkodę Komitetu oraz / lub nie przestrzegania postanowień Regulaminu</li>
+          <li>śmierci członka</li>
+        </ol>
+      </p>
+      <h1><center>§ 10</center></h1>
+      <p>
+        <ol>
+          <li>Działalność Komitetu wspiera Komitet Honorowy</li>
+          <li>Członkiem Komitetu Honorowego może zostać każda osoba, która poprzez swój autorytet może wnieść wkład w budowę pomnika</li>
+        </ol>
+      </p>
+      <h1><center>§ 11</center></h1>
+      <p>
+        Komitet działa przez swoje organy: 
+        <ol>
+          <li>Zgromadzenie Komitetu</li>
+          <li>Zarząd Komitetu</li>
+        </ol>
+      </p>
+      <h1><center>§ 12</center></h1>
+      <p>
+        <ol>
+          <li>Zgromadzenie Komitetu tworzą wszyscy członkowie Komitetu</li>
+          <li>Decyzje podejmowane są w formie uchwał</li>
+          <li>Każdy członek Komitetu posiada jeden głos w ramach podejmowanych decyzji</li>
+          <li>Zgromadzenie Komitetu podejmuje decyzje na posiedzeniach zwykłą większością głosów w obecności co najmniej połowy członków Komitetu</li>
+          <li>Posiedzenia Zgromadzenia Komitetu zwoływane są przez Przewodniczącego Zarządu. Przewodniczący Zarządu pełni jednocześnie funkcję Przewodniczącego Zgromadzenia Komitetu</li>
+          <li>Do kompetencji Zgromadzenia Komitetu należą wszelkie sprawy istotne w zakresie działalności Komitetu przedstawione przez Przewodniczącego Zarządu lub innych członków Komitetu</li>
+          <li>Z posiedzeń Zgromadzenia Komitetu sporządza się protokół, który podpisuje dwóch członków zarządu</li>
+        </ol>
+      </p>
+      <h1><center>§ 13</center></h1>
+      <p>
+        <ol>
+          <li>Zarząd kieruje pracami Komitetu oraz reprezentuje go na zewnątrz</li>
+          <li>Do składania oświadczeń woli w imieniu Komitetu oraz zaciągania zobowiązań upoważnionych jest dwóch członków Zarządu łącznie</li>
+          <li>Do zadań Zarządu należy w szczególności:
+            <ol type="a">
+              <li>organizowanie posiedzeń Komitetu</li>
+              <li>przygotowywanie porządku obrad Komitetu</li>
+              <li>prowadzenie i przygotowywanie dokumentacji i protokołów z posiedzeń Komitetu</li>
+              <li>uruchomienie i prowadzenie strony internetowej informującej o przebiegu realizacji przedsięwzięcia oraz prac Komitetu</li>
+              <li>przyjmowanie i skreślanie członków</li>
+              <li>prowadzenie ewidencji członków</li>
+            </ol>
+          </li>
+        </ol>
+      </p>
+      <h1><center>§ 14</center></h1>
+      <p>
+        W celu realizacji zadań Komitet dokonuje zbiórek środków pieniężnych. Zgromadzone środki publiczne mogą służyć wyłącznie realizacji celów dla których Komitet został powołany. 
+      </p>
+      <h1><center>§ 15</center></h1>
+      <p>
+        <ol>
+          <li>Uchwałę o rozwiązaniu Komitetu po zakończeniu budowy pomnika podejmuje Zgromadzenie Komitetu większością głosów</li>
+          <li>Podejmując uchwałę o rozwiązaniu Komitetu, Zgromadzenie Komitetu określa sposób zagospodarowania pozostałych po wybudowaniu pomnika środków finansowych</li>
+        </ol>
+      </p>
+    </section>
+  </div>
+  <!-- <canvas id="myChart" style="width: 100%; height: 80px; " ></canvas> -->
+
+  <img class="background-separate-image rules-contact" src="img/contact.png" width="300" height="200"/>
+
+  <div class="contact-container">
+    <div class="container">
+      <section id="contact" class="lazy-load">
+
+        <div class="card">
+          <div class="card-header">
+            <i class="fa fa-id-card" aria-hidden="true"></i> Kontakt do nas!
+          </div>
+          <div class="card-body row">
+            <div class="col-8">
+              <div class="row">
+                <div class="col-4 justify-content-end">
+                  <p>Mail: </p>
+                </div>
+                <div class="col-8 justify-content-end">
+                  <p>milosz.mail@onet.eu</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-4">
+                  <p>Tel: </p>
+                </div>
+                <div class="col-8">
+                  <p><a href="tel:+48669853344">+48 669 853 344</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <img id="emblemRP" src="img/godlo.png" alt="Godło Rzeczypospolitej Polski"/>
+            </div>
+          </div>
+        </div>
+
+      </section>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2023 Komitet budowy pomnika Romana Dmowskiego
+  </footer>
+
+  <script
+  src="https://code.jquery.com/jquery-3.7.1.js"
+  integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+  crossorigin="anonymous"></script>
+ 
+  <script
+  src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"
+  ></script>
+  
+  <script
+  src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"
+  ></script>
+
+  <script 
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" 
+  crossorigin="anonymous"
+  ></script>
+
+  <script
+  src="script.js"
+  ></script>
+
+  <script>
+    function scrollToInitiative() {
+      document.getElementById('initiative').scrollIntoView({ behavior: 'smooth'});
+    }
+
+    $( document ).ready(function() {
+      progressBarFunc();
+
+      var list = $('#reasons span');
+
+      $('#reasons').one('IsLoaded', () => {
+        Array.from(list).forEach((obj) => {
+        drawingNumbers(obj);
+        })
+      }) 
+
+      $('card').on('IsLoaded', () => {
+        progressBarFunc();
+      })
+      lazyLoad(); // Sprawdź, czy elementy są widoczne po załadowaniu strony
+
+      $(window).on('scroll', function() {
+        lazyLoad(); // Sprawdź, czy elementy są widoczne podczas przewijania
+        
+        let rect = document.documentElement.getBoundingClientRect();
+        //console.log(document.documentElement.getBoundingClientRect());
+        if(rect.top != 0) {
+          $('header').removeClass('invisible');
+          $('header').addClass('visible')
+        }
+        else {
+          $('header').removeClass('visible');
+          $('header').addClass('invisible');
+        }
+      });
+    })
+  </script>
+</body>
+</html>
