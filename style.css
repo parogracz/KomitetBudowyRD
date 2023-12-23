@@ -93,9 +93,9 @@
       font-family: 'Palatino Linotype', serif;
       font-size: 20px;
     }
+
     a{
       text-decoration: none !important;
-      color: white;
     }
 
     .section-title{
@@ -136,6 +136,20 @@
       display: block;
       position: absolute;
       z-index: 1;
+    }
+
+    #initiative .card{
+      height: 600px;
+    }
+    
+    #initiative .card-header{
+      height: 70px;
+      text-align: center;
+    }
+
+    #initiative .card-text{
+      height: 50px;
+      text-align: center;
     }
 
     .initiative-rules{
@@ -252,6 +266,14 @@
       #contact .card{
         display: block;
       }
+    }
+
+    @media (max-width:480px) {
+      p, ol, ul{
+      text-align: justify;
+      font-family: 'Palatino Linotype', serif;
+      font-size: 15px;
+    }
     }
 
 /* */

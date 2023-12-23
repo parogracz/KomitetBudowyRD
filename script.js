@@ -43,19 +43,24 @@ async function progressBarFunc() {
         progressBar.css('width','5%');
         cardImg.attr('src','img/crane.svg')
         await sleep(3000);
-        cardHeader.html("Stworzenie statutu");
-        progressBar.css('width','30%');
-        cardImg.attr('src','img/buildersHouse.svg')
-        await sleep(3000);
+        cardHeader.html("Stworzenie statutu i zwiększenie liczebności komitetu");
+        cardText.html("Spisanie statutu i regulaminu. Rozszenie komitetu przez kilku członków stowarzyszenia Prawe Miasto.");
+        progressBar.css('width','20%');
+        cardImg.attr('src','img/addMember.png')
+        await sleep(4000);
         cardHeader.html("Koncepcja");
-        progressBar.css('width','55%');
-        await sleep(3000);
+        cardText.html("Zaprojektowanie koncepcji budowy pomnika oraz jego lokalizacji.");
+        progressBar.css('width','45%');
+        cardImg.attr('src','img/concept.png')
+        await sleep(4000);
         cardHeader.html("Złożenie wniosku");
-        progressBar.css('width','70%');
-        await sleep(3000);
-        cardHeader.html("Budowa");
-        progressBar.css('width','90%');
-        await sleep(3000);
+        cardText.html("Złożenie wniosku o uwzględnienie budowy pomnika na biurko prezydenta miasta Otwock.");
+        progressBar.css('width','60%');
+        cardImg.attr('src','img/presidentTable.png')
+        await sleep(4000);
+        // cardHeader.html("Budowa");
+        // progressBar.css('width','90%');
+        // await sleep(3000);
     }
 }
 
