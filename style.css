@@ -93,7 +93,11 @@
       font-family: 'Palatino Linotype', serif;
       font-size: 20px;
     }
-    
+    a{
+      text-decoration: none !important;
+      color: white;
+    }
+
     .section-title{
       margin: 45px 0px; 
     }
@@ -129,6 +133,7 @@
     }
 
     .background-separate-image{
+      display: block;
       position: absolute;
       z-index: 1;
     }
@@ -136,6 +141,10 @@
     .initiative-rules{
       left:78vw;
       margin-top: -20vh;
+    }
+
+    #rules{
+      padding-bottom: 100px;
     }
 
     .rules-contact{
@@ -149,7 +158,7 @@
     }
 
     #contact .card {
-      width: 500px;
+      width: 400px;
     }
 
     #contact{
@@ -183,6 +192,39 @@
       width: 500px;
       height: 200px;
     }
+
+    .phone{
+      color:#fff;
+    }
+
+    @media (max-width: 1000px) {
+      #emblemRP{
+        display: none;
+      }
+      footer {
+        position: inherit;
+      }
+      #initiative-background{
+        display: none;
+      }
+      .reasons-container{
+        clip-path: polygon(0 3%, 100% 0, 100% 100%, 0 97%);
+      }
+      .phone {
+        display: block;
+      }
+      #contact .card{
+        display: none;
+      }
+    }
+
+    @media (max-width: 1500px) {
+      .background-separate-image{
+        display: none;
+      }
+      
+    }
+
     @media (min-width: 1500px) {
 
       #emblemRP{
@@ -204,21 +246,11 @@
       footer {
         position: fixed;
       }
-    }
-
-    @media (max-width: 1000px) {
-      #emblemRP{
+      .phone {
         display: none;
       }
-      footer {
-        z-index: 10;
-        position: inherit;
-      }
-      .background-separate-image{
-        display: none;
-      }
-      #initiative-background{
-        display: none;
+      #contact .card{
+        display: block;
       }
     }
 
